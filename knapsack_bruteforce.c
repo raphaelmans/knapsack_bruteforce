@@ -33,8 +33,8 @@ int knapSack(int W, int wt[], int val[], int n)
 // Driver program to test above function
 int main()
 {
-    int val[] = { 60, 100, 120 };
-    int wt[] = { 10, 20, 50 };
+    int val[] = { 7, 5, 3 };
+    int wt[] = { 1, 2, 4 };
     int W = 50;
     int n = sizeof(val) / sizeof(val[0]);
     printf("%d", knapSack(W, wt, val, n));
